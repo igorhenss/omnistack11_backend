@@ -12,8 +12,8 @@ routes.get('/ngo', NgoController.readAll);
 routes.post('/ngo/register', NgoController.create);
 
 routes.get('/cause', CauseController.readAll);
-routes.post('/cause/register', CauseController.create);
-routes.delete('/cause/:id/delete', CauseController.delete);
+routes.post('/cause/new', CauseController.create);
+routes.delete('/cause/delete/:id', CauseController.delete);
 
 routes.get('/profile', ProfileController.readAll);
 
