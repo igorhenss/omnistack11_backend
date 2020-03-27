@@ -14,7 +14,7 @@ module.exports = {
     
         const id = crypto.randomBytes(8).toString('HEX');
     
-        await conn('ngo').insert({ id, name, email, whatsapp, city, uf });
+        await conn('ngo').insert({ id, name, email, whatsapp, city, fu });
 
         return response.json({ id });
     }
