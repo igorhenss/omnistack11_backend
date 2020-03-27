@@ -14,7 +14,7 @@ module.exports = {
                 'ngo.email',
                 'ngo.whatsapp',
                 'ngo.city',
-                'ngo.uf'
+                'ngo.fu'
             ]);
 
         response.header('X-Total-Count', count['count(*)']);
