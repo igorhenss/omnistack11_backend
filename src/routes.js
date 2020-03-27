@@ -8,10 +8,10 @@ const ProfileController = require('./controller/ProfileController');
 
 routes.post('/sessions', SessionController.create);
 
-routes.get('/ngo', NgoController.readAll);
+routes.get('/ngos', NgoController.readAll);
 routes.post('/ngo/register', NgoController.create);
 
-routes.get('/cause', CauseController.readAll);
+routes.get('/causes', CauseController.readAll);
 routes.post('/cause/new', CauseController.create);
 routes.delete('/cause/delete/:id', CauseController.delete);
 
